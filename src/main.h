@@ -55,7 +55,7 @@ static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20
 static const int64_t COIN_YEAR_REWARD = 10 * CENT;
 
 static const uint256 hashGenesisBlock("0x00000526b091cce608a3434dfb309fac2be2ed4989ad2951ff6afdbbc2b36ccc");
-static const uint256 hashGenesisBlockTestNet("0x00000526b091cce608a3434dfb309fac2be2ed4989ad2951ff6afdbbc2b36ccc");
+static const uint256 hashGenesisBlockTestNet("000089ce6b13ed7b11f459dc3163772b030035a8090e814fcc2eea7fb3858d08");
 
 inline int64_t PastDrift(int64_t nTime)   { return nTime - 10 * 60; } // up to 10 minutes from the past
 inline int64_t FutureDrift(int64_t nTime) { return nTime + 10 * 60; } // up to 10 minutes from the future
